@@ -1,0 +1,53 @@
+# ─── Environment & Secrets ───────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+*.env
+
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.log
+
+# ─── Database (local SQLite files) ───────────────────────────────────────────
+backend/data/*.db
+backend/data/*.sqlite
+backend/data/*.sqlite3
+
+# ─── Uploaded documents / vector store ───────────────────────────────────────
+backend/data/uploads/
+backend/data/vectorstore/
+
+# ─── Node / Next.js ──────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+.npm
+
+# ─── OS & Editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/settings.json
+.idea/
+
+# ─── Docker ──────────────────────────────────────────────────────────────────
+*.tar
