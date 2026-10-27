@@ -62,11 +62,7 @@ docs/                 Application screenshots
 
 From the project root:
 
-```powershell
-Copy-Item .env.example .env
-```
-
-Update `SECRET_KEY` in `.env` before using the application outside local development.
+Create a local `.env` file in the project root using the configuration names listed in the [Configuration](#configuration) section. Keep this file local and update `SECRET_KEY` before using the application outside local development.
 
 Create and activate a virtual environment:
 
