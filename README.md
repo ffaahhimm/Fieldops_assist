@@ -125,7 +125,7 @@ npm run build
 
 ## Configuration
 
-Copy `.env.example` to `.env` and configure:
+Create a local `.env` file and configure:
 
 - `DATABASE_URL` for the database connection
 - `SECRET_KEY` for JWT signing
